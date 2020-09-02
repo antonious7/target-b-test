@@ -1,0 +1,6 @@
+mutation UpdateText($id: ID!, $input: TextInput!) {
+  updateText(id: $id, input: $input) {
+    id
+    text
+  }
+}

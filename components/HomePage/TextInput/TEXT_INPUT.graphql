@@ -1,0 +1,6 @@
+query Text {
+    text {
+      id
+      text
+    }
+}
